@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "400093506016",
+    "firebase_url": "https://androidbeginner-6804d.firebaseio.com",
+    "project_id": "androidbeginner-6804d",
+    "storage_bucket": "androidbeginner-6804d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400093506016:android:cf83b45ea0c1d976",
+        "android_client_info": {
+          "package_name": "comp.example.hreday.androidbeginner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400093506016-nih4eska7lf2jm7ota57huerqh198bvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz3Qh5v7xwkJKyde5Amxs6y6nrKG5F-ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400093506016-nih4eska7lf2jm7ota57huerqh198bvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ef9a9a"
+
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".FirebaseActivity5">
+
+
+    <Button
+        android:id="@+id/chooseButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="0.5"
+        android:background="#2291ff"
+        android:text="Choose an image" />
+
+
+    <EditText
+        android:id="@+id/editTextId4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:hint="Enter an image" />
+
+
+    <ImageView
+        android:id="@+id/imageViewId4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1.5" />
+
+    <Button
+        android:id="@+id/saveButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/background"
+        android:text="Save image" />
+
+
+    <Button
+        android:id="@+id/displayButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="0.1"
+        android:background="#43ff22"
+        android:text="Display image" />
+
+
+</LinearLayout>

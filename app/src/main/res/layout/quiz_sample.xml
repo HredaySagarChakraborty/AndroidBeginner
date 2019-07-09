@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#e1f5fe"
+
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+            <TextView
+                android:id="@+id/questionsId"
+                android:layout_marginTop="10dp"
+
+
+
+                android:text="What are the questions?"
+                android:textSize="20sp"
+                android:layout_marginLeft="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+
+
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="option1"
+            android:background="#81d4fa"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:id="@+id/optionButton1Id"
+
+            android:layout_width="130dp"
+            android:layout_height="90dp" />
+
+        <Button
+            android:text="option2"
+            android:background="#81d4fa"
+            android:textAllCaps="false"
+            android:id="@+id/optionButton2Id"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_width="130dp"
+            android:layout_height="90dp" />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="option3"
+            android:background="#81d4fa"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:id="@+id/optionButton3Id"
+
+            android:layout_width="130dp"
+            android:layout_height="90dp" /> />
+
+        <Button
+            android:text="option4"
+            android:background="#81d4fa"
+            android:id="@+id/optionButton4Id"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_width="130dp"
+            android:layout_height="90dp" /> />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+        <TextView
+            android:id="@+id/timerId"
+            android:text="00.00"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="110dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
